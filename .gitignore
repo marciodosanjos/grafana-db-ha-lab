@@ -1,0 +1,30 @@
+# Environment / secrets
+.env
+.env.*
+!.env.example
+
+# Local database / runtime data (if bind mounts are added later)
+data/
+pgdata/
+*.pid
+*.log
+
+# IDE / editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+Desktop.ini
+
+# Python cache (for helper scripts, if added)
+__pycache__/
+*.py[cod]
+
+# Temporary files
+tmp/
+temp/
+*.tmp
